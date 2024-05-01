@@ -8,7 +8,7 @@ def get_llama_response(input_text, no_words, blog_style):
     
     # Llama 2 model
     llm = CTransformers(
-        model="C:/Users/MSI/Desktop/Langchain_Project/LLama_2/models/llama-2-7b-chat.ggmlv3.q8_0.bin",
+        model="models/llama-2-7b-chat.ggmlv3.q8_0.bin",
         model_type="llama",
         config={"max_new_tokens":256,
                 "temperature":0.01}
